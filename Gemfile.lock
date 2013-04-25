@@ -95,6 +95,13 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
+    typescript-node (0.0.5)
+      typescript-src (~> 0.8)
+    typescript-rails (0.1.2)
+      railties
+      tilt (~> 1.3)
+      typescript-node (~> 0.0)
+    typescript-src (0.8.3)
     tzinfo (0.3.37)
     uglifier (2.0.1)
       execjs (>= 0.3.0)
@@ -109,4 +116,5 @@ DEPENDENCIES
   rails (= 3.2.10)
   sass-rails (~> 3.2.3)
   sqlite3
+  typescript-rails
   uglifier (>= 1.0.3)
